@@ -1,0 +1,59 @@
+File Types: 
+	- 1. PBI files - 		.pbix 
+	- 2. PBI Template files - 	.pbit 
+	- 3. PBI Project files - 	.pbip
+	- 4. PBI Report files - 	.pbir 
+
+1. Project Objective
+2. Data Cleaning 
+3. DAX Queries 
+4. Dashboard 
+5. Sales Forecasting 
+6. Learnings 
+
+1. Dashboard 
+	Header  ( Super Store Sales Dashboard ) 
+	Filters - Splitters
+	Cards  : Orders / Sales / Profit / Ship Days  
+
+	Sales By Payment Mode 	( Donut Chart ) 
+	Sales By Region		( Donut Chart ) 
+	Sales By Segment 	( Donut Chart ) 
+	Sales By Month 		( ?? Chat )
+	Profit By Month		( ?? Chat )
+
+
+
+	Sales By Ship Mode 	( Chart : ?? ) 
+	Sales By Category	( Chart : ?? ) 
+	Sales By Sub-Category	( Chart : ?? ) 
+
+	Profit and Sales By State ( Chart : Map ) 
+	
+2. Sales Forecast
+	Header ( Super Store Sales Forecast : 15 Days Forecast )
+
+	- Sales Forecast : 15 Days  ( Chart : )
+	- Sales Forecast : 15 Days  ( Chart : )
+	- Sales By States 
+
+
+
+Column types: 
+	[Fixed] Decimal Number 
+	Whole Number 
+	Percentage 
+	Date / Time / Date-Time 
+	Timezone
+	Duration 
+	Text 
+	True/False 
+	Binary 
+	Using Locale 
+
+Power Query Editer 	: Data Cleaning Steps
+	0. Change Data type - select field header ( right click ) -> "Change Type"
+	0.1. Select all field headers   ( Transform -> Detect Data Type ) 
+	1. Check null ( View -> Column Quality  % ) - checks for Valid / Error / Empty 
+	2. Remove Duplicates ( Transform -> Remove Rows -> Remove Duplicates / Blank Rows / Errors ) 
+ 
