@@ -22,8 +22,6 @@ File Types:
 	Sales By Month 		( ?? Chat )
 	Profit By Month		( ?? Chat )
 
-
-
 	Sales By Ship Mode 	( Chart : ?? ) 
 	Sales By Category	( Chart : ?? ) 
 	Sales By Sub-Category	( Chart : ?? ) 
@@ -50,6 +48,10 @@ Column types:
 	True/False 
 	Binary 
 	Using Locale 
+
+	Value Alignments : 
+		- left 		( text / ... ) 
+		- right 	( [decimal] numbers / Dates ] 
 
 Power Query Editer 	: Data Cleaning Steps
 	0. Change Data type - select field header ( right click ) -> "Change Type"
